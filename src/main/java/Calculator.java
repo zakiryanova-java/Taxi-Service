@@ -1,5 +1,5 @@
 public class Calculator {
-    int pay(int boardingCost, int costPerKm, int distance) {
+    int calculateCost(int boardingCost, int costPerKm, int distance) {
         int taxiCost = boardingCost + costPerKm * distance;
         if (taxiCost > 1000) {
             double discount = taxiCost * 0.05;
